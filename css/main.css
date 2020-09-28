@@ -1,0 +1,148 @@
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+/* General formatting ============================================================*/
+body {
+    background:url(../img/carbon_fibre.png) repeat rgb(116, 114, 114);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+article {
+    width: 90%;
+    background:rgba(238, 238, 241, 0.84);
+    color: darkblue;
+    margin: 0 100px 50px 100px;
+    border: 2px solid darkblue;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 5px 7px 6px 1px rgba(21, 25, 36, 0.54);
+    padding: 20px 2%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: darkblue;
+}
+
+p {
+    padding: 10px 15px;
+    font-weight: 400;
+}
+
+
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: white;    
+    box-shadow: 1px 1px 1px 1px rgba(21, 25, 36, 0.44);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.img_format {
+    width: 90%;
+    margin: 10px 5%;
+    border: 1px solid darkblue;
+    border-radius: 5px 25px 5px 25px;
+    box-shadow: 5px 7px 6px 1px rgba(8,39,119,.54);
+}
+
+/* Table formatting =============================================================*/
+
+.tg  {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.tg td{
+    border: 1px solid darkblue;
+    font-size: 1.5rem;
+    font-weight: 200;
+    overflow: hidden;
+    padding: 10px 20px;
+    word-break: normal;
+}
+
+.tg th{
+    background-color: rgb(29, 29, 161);
+    border: 2px solid darkblue;
+    font-size: 1.8rem;
+    font-weight: 600;
+    overflow: hidden;
+    padding: 10px;
+    word-break: normal;
+}
+
+.tg .tbl-content{
+    border-color: darkblue;
+    text-align: left;
+    vertical-align: top
+}
+
+tr:nth-child(odd){
+    background: rgb(41, 95, 255);
+    color: white;
+}
+
+tr:nth-child(even){
+    background: rgb(183, 190, 255);
+}
+
+/* Form styling ===================================================================*/
+
+fieldset {
+    border: 0px;
+}
+form {
+    margin: o auto;
+    width: 95%;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+}
+
+textarea {
+    width: 99%;
+    height: 2c;
+}
+
+select {
+    width: 100%;
+}
+
+input {
+    width: 99%;
+    vertical-align: top;
+}
+
+.right {
+    float: right;
+}
