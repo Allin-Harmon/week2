@@ -15,6 +15,17 @@ body {
     padding: 15px;
 }
 
+.sub-nav {
+    width: 70%;
+    background:rgba(238, 238, 241, 0.84);
+    color: darkblue;
+    margin: 0 auto;
+    border: 2px solid darkblue;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 5px 7px 6px 1px rgba(21, 25, 36, 0.54);
+    padding: 20px 2%;
+}
+
 article {
     width: 90%;
     background:rgba(238, 238, 241, 0.84);
@@ -26,8 +37,33 @@ article {
     padding: 20px 2%;
 }
 
+article.hw-title {
+    background: rgba(216, 216, 216, 0.84);
+    width: 60%;
+}
+
+.sub-nav li {
+    display: inline;
+}
+
+    .sub-nav li a {
+    background: white;
+    margin: 10px;
+    border: 1px darkblue solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.sub-nav li a:hover {
+    background: darkgray;
+}
+
+.hw-title h1 {
+    margin: 0;
+}
+
 h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: darkblue;
 }
 
@@ -53,6 +89,7 @@ button:hover {
 .center {
     margin: auto;
     width: 50%;
+    min-width: 560px;
 }
 
 .img_format {
@@ -92,6 +129,11 @@ button:hover {
     border-color: darkblue;
     text-align: left;
     vertical-align: top
+}
+
+.tg tr:hover {
+    background: darkblue;
+    color: lightgrey;
 }
 
 tr:nth-child(odd){
@@ -145,4 +187,21 @@ input {
 
 .right {
     float: right;
+}
+
+/* Parent Child Relationship example================================================= */
+div.parent-child-example {
+    width: 400px;
+    height: 200px;
+    border: darkblue 5px groove;
+}
+
+div.parent-child-example h3 {
+    padding-left: 10px;
+}
+
+div.parent-child-example p {
+    width: 90%;
+    height: 50%;
+    border: 5px solid grey;
 }
