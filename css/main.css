@@ -74,10 +74,10 @@ p {
     font-weight: 400;
 }
 
-/* li {
-    margin: 15px 5px;
+li {
     padding: 5px;
-} */
+}
+
 button {
     cursor: pointer;
     padding: 5px 10px;
@@ -161,7 +161,7 @@ form {
     padding: 1em;
 }
 
-ul {
+form ul {
     list-style: none;
     padding: 0;
     margin: 0;
