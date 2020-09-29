@@ -15,17 +15,6 @@ body {
     padding: 15px;
 }
 
-.sub-nav {
-    width: 70%;
-    background:rgba(238, 238, 241, 0.84);
-    color: darkblue;
-    margin: 0 auto;
-    border: 2px solid darkblue;
-    border-radius: 10px 30px 10px 30px;
-    box-shadow: 5px 7px 6px 1px rgba(21, 25, 36, 0.54);
-    padding: 20px 2%;
-}
-
 article {
     width: 90%;
     background:rgba(238, 238, 241, 0.84);
@@ -40,6 +29,19 @@ article {
 article.hw-title {
     background: rgba(216, 216, 216, 0.84);
     width: 60%;
+}
+
+.sub-nav {
+    width: 70%;
+    background:rgba(238, 238, 241, 0.84);
+    color: darkblue;
+    margin: 0 auto;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    border: 2px solid darkblue;
+    border-radius: 10px 30px 10px 30px;
+    box-shadow: 5px 7px 6px 1px rgba(21, 25, 36, 0.54);
+    padding: 20px 2%;
 }
 
 .sub-nav li {
@@ -72,7 +74,10 @@ p {
     font-weight: 400;
 }
 
-
+/* li {
+    margin: 15px 5px;
+    padding: 5px;
+} */
 button {
     cursor: pointer;
     padding: 5px 10px;
@@ -190,17 +195,17 @@ input {
 }
 
 /* Parent Child Relationship example================================================= */
-div.parent-child-example {
+div.step5 {
     width: 400px;
     height: 200px;
     border: darkblue 5px groove;
 }
 
-div.parent-child-example h3 {
+div.step5 h3 {
     padding-left: 10px;
 }
 
-div.parent-child-example p {
+div.step5 p {
     width: 90%;
     height: 50%;
     border: 5px solid grey;
