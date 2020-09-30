@@ -1,3 +1,4 @@
+<!-- Everything looks great! I appreciate you going the extra mile to add the CSS for everything in. I also really appreciate the homework nav being sectioned out. I added some comments here and in main.css check them out, I'll get homework 2's comments in here tomorrow. -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,9 +7,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 2 Homework 1</title>
+    <!-- I think media="all" is default in HTML 5 shouldn't hurt to include it though. -->
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
+    <!-- What was this going to be? -->
     <div id="wrapper">
         <header>
             <nav>
@@ -23,12 +26,14 @@
 
         <div class="sub-nav">
             <h2>Internal links</h2>
+            <!-- This was super helpful thanks -->
             <ul>
+                <!-- Nice! I use links styled as buttons all the time myself -->
                 <li><a href="#w2-h1">Week 2 Homework 1</a></li>
                 <li><a href="#w2-h2">Week 2 Homework 2</a></li>
                 <!-- <li><a href="#w2-h3">Week 2 Homework 3</a></li> -->
             </ul>
-        </div>
+    </div> <!--Small formatting change was tabbed in to much-->
 
 <!-- This is the start of Week 2 Homework 2 assignment------------------------------
 ____________________________________________________________________________________
@@ -83,6 +88,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________
 ----------------------------------------------------------------------------------->
 
+<!-- Nice use of semantic HTML 5 tags -->
+
 <!-- Step 5 -->
         <article class="center hw-title" id="w2-h1">
             <h1>Week 2 Homework 1 - Creating a better webpage.</h1>
@@ -91,8 +98,11 @@ ________________________________________________________________________________
         <article class="center">
 
             <h2>One of my favorite websites is <strong>PCPartPicker.com</strong>.</h2>
+            <!-- I think it might look a little better with some x-margin on the button so its not so close to the text -->
+            <!-- I don't want to change the markup to much but I also think the button would look better on a new line -->
             <p>Check it out. <a href="https://pcpartpicker.com/" target="_blank">Click this link or the button<button>PC Part Picker</button></a></p>
 
+            <!-- Didn't know about this site, I'm going to be building a new PC soon myself -->
             <p>It is a <em>great site</em> if you are planning to build a computer because:
                 <ol>
                     <li>You can check compatibility with various parts</li>
@@ -111,6 +121,7 @@ ________________________________________________________________________________
 
         <article class="center">
 
+            <!-- Linus rocks, been watching LTT since I was young. -->
             <h2>I also like Linus Tech Tips to help me stay up on some of the latest trends in technology and the PC building world.</h2>
             
             <!-- Showing embedded YouTube video -->
@@ -119,6 +130,7 @@ ________________________________________________________________________________
 
         </article>
 
+        <!-- Awesome props on doing all 3 -->
         <article class="center">
 
             <h2>This is just a random downloaded video off of the internet to show a relative link</h2>
@@ -145,6 +157,8 @@ ________________________________________________________________________________
 
             <h2>This is a table for generic RPG Characters</h2>
 
+            <!-- Table looks great I really like the different colors to distinguish rows. The only thing I might change is the border
+            color on hover so that it isn't the same color as the hover background, maybe white? That or make the background color a different color. -->
             <table class="tg">
                 <thead>
                     <tr>
@@ -186,13 +200,13 @@ ________________________________________________________________________________
 
             <fieldset>
 
+                <!-- Form looks great! -->
                 <form action="">
                     
                     <ul>
                         <li>
                             <label for="name">Username:</label>
-                            <input type="username" id="
-                            username" name="username" placeholder="Type your username">
+                            <input type="username" id="username" name="username" placeholder="Type your username">
                         </li>
 
                         <li>
@@ -207,6 +221,7 @@ ________________________________________________________________________________
 
                         <li>
                             <label>Department:</label>
+                            <!-- Required is redundant on a select as you have to make a choice, i.e. if you do nothing its whatever the first option is. I usually handle validation on this with JS. Certainly doesn't hurt to leave it though. -->
                             <select name="drop-down" id="drop-down" required>
                                 <option value="pay">Payments</option>
                                 <option value="tech">Tech Support</option>
@@ -215,6 +230,7 @@ ________________________________________________________________________________
                         </li>
 
                         <li class="right">
+                            <!-- Nice use of the reset type, can't remember if I covered it in class or not. -->
                             <button type="submit">Submit</button>
                             <button type="reset">Reset</button>
                         </li>
