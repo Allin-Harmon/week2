@@ -5,7 +5,7 @@
 
 /* General formatting ============================================================*/
 body {
-    background:url(../img/carbon_fibre.png) repeat rgb(116, 114, 114);
+    background: url(../img/carbon_fibre.png) repeat rgb(116, 114, 114);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,11 +15,20 @@ body {
     padding: 15px;
 }
 
+.vertical-center {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.big-af {
+	height: 50vh;
+}
+
 article {
     width: 90%;
     background:rgba(238, 238, 241, 0.84);
     color: darkblue;
-    margin: 0 100px 50px 100px;
     border: 2px solid darkblue;
     border-radius: 10px 30px 10px 30px;
     box-shadow: 5px 7px 6px 1px rgba(21, 25, 36, 0.54);
@@ -92,7 +101,7 @@ button:hover {
 }
 
 .center {
-    margin: auto;
+    margin: 20px auto;
     width: 50%;
     min-width: 560px;
 }
@@ -131,18 +140,18 @@ button:hover {
 }
 
 .tg .tbl-content{
-    border-color: darkblue;
+    border-color: rgba(59, 59, 59, 0.562);
     text-align: left;
     vertical-align: top
 }
 
 .tg tr:hover {
-    background: darkblue;
+    background: rgb(92, 92, 92);
     color: lightgrey;
 }
 
 tr:nth-child(odd){
-    background: rgb(41, 95, 255);
+    background: rgb(62, 65, 255);
     color: white;
 }
 
@@ -195,17 +204,17 @@ input {
 }
 
 /* Parent Child Relationship example================================================= */
-div.step5 {
+div .step5 {
     width: 400px;
     height: 200px;
     border: darkblue 5px groove;
 }
 
-div.step5 h3 {
+div .step5 h3 {
     padding-left: 10px;
 }
 
-div.step5 p {
+div .step5 p {
     width: 90%;
     height: 50%;
     border: 5px solid grey;
